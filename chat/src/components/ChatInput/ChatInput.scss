@@ -1,0 +1,45 @@
+.chat-input{
+    position: relative;
+    margin: 20px;
+    display: flex;
+
+    &__smile-btn{
+        margin-right: 15px;
+        i.anticon {
+            margin-top: 11px;
+        }
+    }
+
+    .ant-btn-circle {
+        border: 0;
+        box-shadow: none;
+        color: #202020 !important;
+        opacity: 0.4;
+        //transition: opacity 0.15s ease-in-out;
+        &hover {
+            opacity: 1;
+        }
+        &:after {
+            display: none;
+        }
+    }
+
+    i.anticon {
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+
+    &__send {
+        display: flex;
+        align-items: center;
+        width: 90px;
+        justify-content: spase-between;
+        margin-left: 15px;
+    }
+
+    input {
+        padding: 6px 11px 8px;
+        font-size: 14px;
+    }
+}
